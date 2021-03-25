@@ -6,6 +6,10 @@
 Welcome to Documentation Beginners' Guide!
 ==========================================
 
+Hi! Are you new to documentation?
+
+Learn more about documentation an how it can help you in your projects.
+
 This guide is still a work in progress. It is still being edited and continuously updated
 
 .. toctree::
@@ -20,7 +24,18 @@ This guide is still a work in progress. It is still being edited and continuousl
    :hidden:
    
    why-need-documentation
+   documentation-examples
 
+.. toctree::
+   :caption: Workspace setup
+   :maxdepth: 1
+   :hidden:
+   
+   install-anaconda
+   install-sphinx
+   install-gitclient
+   install-github
+   putting-all-together
 
 
 Indices and tables
