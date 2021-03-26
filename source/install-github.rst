@@ -1,6 +1,6 @@
-*******************************
+================================
 Installing a Github Repository
-*******************************
+================================
 
 Technically, we are not going to install anything, but the title looks neat beside to the others installation guides. But, surely we are going to make an integration with `GitHub <https://github.com/>`_. For this process, I asume you have a `GitHub <https://github.com/>`_ account already.
 

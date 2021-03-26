@@ -1,6 +1,6 @@
-******************************
-Why do you need documentation?
-******************************
+================================
+Why do you need documentation? 
+================================
 
 **Motivational speech ahead**
 

@@ -41,8 +41,26 @@ This guide is a power through documentation to jump in and start working right a
    :maxdepth: 1
    :hidden:
    
-   my-first-project
+   pushing-to-github
    add-sphinx
+   first-build
+   change-theme
+
+.. toctree::
+   :caption: Structure
+   :maxdepth: 1
+   :hidden:
+   
+   files-folders
+   toctree
+   
+.. toctree::
+   :caption: Beyond This Guide
+   :maxdepth: 1
+   :hidden:
+   
+   resources
+   help-me
 
 Indices and tables
 ==================

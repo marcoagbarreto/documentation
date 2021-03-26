@@ -1,9 +1,9 @@
-*********************
-My First Project
-*********************
+========================
+Pushing files to GitHub
+========================
 
 .. Note::
-	Now that you have your Workspace ready we can continue to build our first project. If you haven't done that, check the :doc:`Workspace Setup <install-anaconda>` section for dependencies installations.
+	Now that you have your Workspace ready we can continue to push files into GitHub. If you haven't done that, check the :doc:`Workspace Setup <install-anaconda>` section for dependencies installations.
 	
 The first thing you want to do is to make some changes in your project folder and upload them to GitHub to get a sense of how GitKraken works.
 

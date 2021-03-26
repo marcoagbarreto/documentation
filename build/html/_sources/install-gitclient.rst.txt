@@ -1,6 +1,6 @@
-************************
+========================
 Installing a Git Client
-************************
+========================
 
 Installing a Git Client is important if you plan on using GitHub as cloud based version manager. In my case I'm using GitKraken which is a Git Client with a visual GUI. Basically, it looks cool ad makes you look professional. GitKraken is available for Windows, Mac and Linux. I'm going to stick to the Windows installation.
 

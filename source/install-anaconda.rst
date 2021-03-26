@@ -1,6 +1,6 @@
-*******************************
+================================
 Installing Anaconda on Windows
-*******************************
+================================
 
 Anaconda is a frontend enviroment for Python language. It is necesary for setting up your workspace. Installation packages are available for Windows, Mac and Linux. We are going to go through the Windows installation.
 
@@ -8,7 +8,7 @@ Anaconda is a frontend enviroment for Python language. It is necesary for settin
 
 #. Using a Web browser, navigate to the Anaconda's `Individual Edition page 		  <https://www.anaconda.com/products/individual>`_. Then, go to the `download section <https://www.anaconda.com/products/individual#Downloads>`_.
 
-	.. image:: images/anaconda-individual_edition.png
+	.. image:: images/anaconda-individual-edition.png
 	   :class: screenshot
    
 #. Click on your preferred installer. In our case we are choosing the 64-Bit Windows installer since we are  using a 64-Bit computer.

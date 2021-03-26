@@ -1,6 +1,6 @@
-***********************
+========================
 Documentation Examples
-***********************
+========================
 
 Documentation is very important in the real world and Sphinx has become a popular tool to build documentation. Here are some examples that use Sphinx to build their own. These examples give you an idea on how to structure and build your own documentation. They show different approaches and all of them demonstrate how to use their product.
 

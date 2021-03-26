@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>My First Project &mdash; Documentation 1 documentation</title>
+  <title>Changing Theme &mdash; Documentation 1 documentation</title>
   
 
   
@@ -36,8 +36,8 @@
     
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Adding Sphinx to My Project" href="add-sphinx.html" />
-    <link rel="prev" title="Installing a Github Repository" href="install-github.html" /> 
+    <link rel="next" title="Folder &amp; Files" href="files-folders.html" />
+    <link rel="prev" title="First Build" href="first-build.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -96,8 +96,20 @@
 </ul>
 <p class="caption"><span class="caption-text">My First Project</span></p>
 <ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">My First Project</a></li>
-<li class="toctree-l1"><a class="reference internal" href="add-sphinx.html">Adding Sphinx to My Project</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pushing-to-github.html">Pushing files to GitHub</a></li>
+<li class="toctree-l1"><a class="reference internal" href="add-sphinx.html">Adding Sphinx to Project</a></li>
+<li class="toctree-l1"><a class="reference internal" href="first-build.html">First Build</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Changing Theme</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Structure</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="files-folders.html">Folder &amp; Files</a></li>
+<li class="toctree-l1"><a class="reference internal" href="toctree.html">TocTree</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Beyond This Guide</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="resources.html">Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="help-me.html">Help me!</a></li>
 </ul>
 
             
@@ -144,13 +156,13 @@
     
       <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
         
-      <li>My First Project</li>
+      <li>Changing Theme</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="_sources/my-first-project.rst.txt" rel="nofollow"> View page source</a>
+            <a href="_sources/change-theme.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -165,57 +177,53 @@
             
   <blockquote>
 <div></div></blockquote>
-<div class="section" id="my-first-project">
-<h1>My First Project<a class="headerlink" href="#my-first-project" title="Permalink to this headline">¶</a></h1>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Now that you have your Workspace ready we can continue to build our first project. If you haven’t done that, check the <a class="reference internal" href="install-anaconda.html"><span class="doc">Workspace Setup</span></a> section for dependencies installations.</p>
-</div>
-<p>The first thing you want to do is to make some changes in your project folder and upload them to GitHub to get a sense of how GitKraken works.</p>
+<div class="section" id="changing-theme">
+<h1>Changing Theme<a class="headerlink" href="#changing-theme" title="Permalink to this headline">¶</a></h1>
+<p>By default Sphinx comes with a default not so pretty theme, we are going to change that.</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">sphinx-rtd-theme</span></code> is the standard documentation theme, is the one used in the <a class="reference internal" href="documentation-examples.html"><span class="doc">examples</span></a> as well.</p>
 <ol class="arabic">
-<li><p>Head to your project folder and open the README file by right click and selecting <code class="docutils literal notranslate"><span class="pre">Edit</span> <span class="pre">with</span> <span class="pre">Notepad</span> <span class="pre">++</span></code></p>
+<li><p>Open the CMD.exe terminal using Anaconda Navigator.</p>
 <blockquote>
-<div><img alt="_images/myfirst-edit.png" class="screenshot" src="_images/myfirst-edit.png" />
+<div><img alt="_images/sphinx-navigator.png" class="screenshot" src="_images/sphinx-navigator.png" />
 </div></blockquote>
 </li>
-<li><p>Add some content to it and save it. This type of file uses a Markdown style, you can visit the <a class="reference external" href="https://google.github.io/styleguide/docguide/style.html">guide</a> to start learning Markdown.</p>
+<li><p>The theme can be installed by visiting the theme <a class="reference external" href="https://sphinx-rtd-theme.readthedocs.io/en/stable/">documentation page</a>. Alternatively you can copy and paste the next line into the terminal.</p>
 <blockquote>
-<div><img alt="_images/myfirst-readme.png" class="screenshot" src="_images/myfirst-readme.png" />
+<div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">sphinx</span><span class="o">-</span><span class="n">rtd</span><span class="o">-</span><span class="n">theme</span>
+</pre></div>
+</div>
+<img alt="_images/theme-pip.png" class="screenshot" src="_images/theme-pip.png" />
 </div></blockquote>
 </li>
-<li><p>You should see some changes in GitKraken, click on <span class="blue">View change</span>.</p>
+<li><p>To use the theme in your Sphinx project, you will need to edit the <code class="docutils literal notranslate"><span class="pre">conf.py</span></code></p>
 <blockquote>
-<div><img alt="_images/myfirst-change.png" class="screenshot" src="_images/myfirst-change.png" />
+<div><img alt="_images/theme-conf.png" class="screenshot" src="_images/theme-conf.png" />
 </div></blockquote>
 </li>
-<li><p>The README file should appear as a changed file, which makes sense, because we edited it. Click on <span class="green">Stage all changes</span>.</p>
+<li><p>Inside <code class="docutils literal notranslate"><span class="pre">conf.py</span></code> change to <code class="docutils literal notranslate"><span class="pre">sphinx-rtd-theme</span></code>, copy and paste the next line in the <code class="docutils literal notranslate"><span class="pre">html_theme</span> <span class="pre">=</span></code> section, replace any existing theme and save the document.</p>
 <blockquote>
-<div><img alt="_images/myfirst-stage.png" class="screenshot" src="_images/myfirst-stage.png" />
+<div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">html_theme</span> <span class="o">=</span> <span class="s1">&#39;sphinx_rtd_theme&#39;</span>
+</pre></div>
+</div>
+<img alt="_images/theme-htmltheme.png" class="screenshot" src="_images/theme-htmltheme.png" />
 </div></blockquote>
 </li>
-<li><p>Then, we need to write a message, title or some brief info under <span class="gray">Commit Message</span>. After we put the <span class="gray">Commit Message</span>, we hit the <span class="green">Commit changes to 1 file</span>.</p>
+<li><p>Compile your project using the <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">html</span></code> command on the terminal. If you have no idea what am I talking about, check <a class="reference internal" href="first-build.html"><span class="doc">First Build</span></a>.</p>
 <blockquote>
-<div><img alt="_images/myfirst-readmeinfo.png" class="screenshot" src="_images/myfirst-readmeinfo.png" />
+<div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">make</span> <span class="n">html</span>
+</pre></div>
+</div>
+<img alt="_images/build-make.png" class="screenshot" src="_images/build-make.png" />
 </div></blockquote>
 </li>
-<li><p>On the top left we will see our branch named main with an up arrow to the right. This means that there is an upload pending. To upload the changes to GitHub click on the <span class="gray">Push</span> button.</p>
+<li><p>Open the <code class="docutils literal notranslate"><span class="pre">index.html</span></code></p>
 <blockquote>
-<div><img alt="_images/myfirst-upload.png" class="screenshot" src="_images/myfirst-upload.png" />
+<div><img alt="_images/build-htmlindex.png" class="screenshot" src="_images/build-htmlindex.png" />
 </div></blockquote>
 </li>
-<li><p>If everything went right, you should see a confirmation dialog on the bottom left corner.</p>
+<li><p>The theme should now be the <code class="docutils literal notranslate"><span class="pre">sphinx-rtd-theme</span></code></p>
 <blockquote>
-<div><img alt="_images/myfirst-confirmation.png" class="screenshot" src="_images/myfirst-confirmation.png" />
-</div></blockquote>
-</li>
-<li><p>There will be a new item on the GitKraken tree with the <span class="gray">Commit Message</span> that you chose earlier.</p>
-<blockquote>
-<div><img alt="_images/myfirst-tree.png" class="screenshot" src="_images/myfirst-tree.png" />
-</div></blockquote>
-</li>
-<li><p>Go to your GitHub repository to see the changes on the README file.</p>
-<blockquote>
-<div><img alt="_images/myfirst-push.png" class="screenshot" src="_images/myfirst-push.png" />
+<div><img alt="_images/theme-docs.png" class="screenshot" src="_images/theme-docs.png" />
 </div></blockquote>
 </li>
 </ol>
@@ -229,10 +237,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="add-sphinx.html" class="btn btn-neutral float-right" title="Adding Sphinx to My Project" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="files-folders.html" class="btn btn-neutral float-right" title="Folder &amp; Files" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="install-github.html" class="btn btn-neutral float-left" title="Installing a Github Repository" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="first-build.html" class="btn btn-neutral float-left" title="First Build" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

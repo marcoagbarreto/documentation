@@ -1,6 +1,6 @@
-******************
+==================
 Installing Sphinx
-******************
+==================
 
 `Sphinx <https://www.sphinx-doc.org/en/master/index.html>`_ is a documentation generator, it translates plain text into diferent formats, it can produce references, indices, links and much more. We are going to use it to write our documents in reStucturedText to generate HTML files that will give our documentation a professional look.
 

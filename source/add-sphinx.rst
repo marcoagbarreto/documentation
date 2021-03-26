@@ -1,6 +1,6 @@
-****************************
-Adding Sphinx to My Project
-****************************
+=========================
+Adding Sphinx to Project
+=========================
 
 The next thing we want to do is to build Sphinx into our project, so we can compile the project into a set of HTML files to visualize beautiful documentation.
 
@@ -37,7 +37,7 @@ The next thing we want to do is to build Sphinx into our project, so we can comp
 	   :class: screenshot	   
 	   
 	   
-#. After the Sphinx utility finishes, new items will appear in your project directory. Sphinx is now part of your life <3
+#. After the Sphinx utility finishes, new items will appear in your project directory. Sphinx is now part of your life <3.
 
 	.. image:: images/addsphinx-explorer.png
 	   :class: screenshot
