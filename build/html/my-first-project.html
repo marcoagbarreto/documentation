@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Installing a Github Repository &mdash; Documentation 1 documentation</title>
+  <title>My First Project &mdash; Documentation 1 documentation</title>
   
 
   
@@ -36,8 +36,8 @@
     
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="My First Project" href="my-first-project.html" />
-    <link rel="prev" title="Installing a Git Client" href="install-gitclient.html" /> 
+    <link rel="next" title="Adding Sphinx to My Project" href="add-sphinx.html" />
+    <link rel="prev" title="Installing a Github Repository" href="install-github.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -88,15 +88,16 @@
 <li class="toctree-l1"><a class="reference internal" href="documentation-examples.html">Documentation Examples</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Workspace setup</span></p>
-<ul class="current">
+<ul>
 <li class="toctree-l1"><a class="reference internal" href="install-anaconda.html">Installing Anaconda on Windows</a></li>
 <li class="toctree-l1"><a class="reference internal" href="install-sphinx.html">Installing Sphinx</a></li>
 <li class="toctree-l1"><a class="reference internal" href="install-gitclient.html">Installing a Git Client</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Installing a Github Repository</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install-github.html">Installing a Github Repository</a></li>
 </ul>
 <p class="caption"><span class="caption-text">My First Project</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="my-first-project.html">My First Project</a></li>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">My First Project</a></li>
+<li class="toctree-l1"><a class="reference internal" href="add-sphinx.html">Adding Sphinx to My Project</a></li>
 </ul>
 
             
@@ -143,13 +144,13 @@
     
       <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
         
-      <li>Installing a Github Repository</li>
+      <li>My First Project</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="_sources/install-github.rst.txt" rel="nofollow"> View page source</a>
+            <a href="_sources/my-first-project.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -164,59 +165,57 @@
             
   <blockquote>
 <div></div></blockquote>
-<div class="section" id="installing-a-github-repository">
-<h1>Installing a Github Repository<a class="headerlink" href="#installing-a-github-repository" title="Permalink to this headline">¶</a></h1>
-<p>Technically, we are not going to install anything, but the title looks neat beside to the others installation guides. But, surely we are going to make an integration with <a class="reference external" href="https://github.com/">GitHub</a>. For this process, I asume you have a <a class="reference external" href="https://github.com/">GitHub</a> account already.</p>
+<div class="section" id="my-first-project">
+<h1>My First Project<a class="headerlink" href="#my-first-project" title="Permalink to this headline">¶</a></h1>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>You may use Sphinx and build your documentation without GitHub. I find useful using this cloud based version manager to share projects with other people, specially if 2 or more are involved.</p>
+<p>Now that you have your Workspace ready we can continue to build our first project. If you haven’t done that, check the <a class="reference internal" href="install-anaconda.html"><span class="doc">Workspace Setup</span></a> section for dependencies installations.</p>
 </div>
+<p>The first thing you want to do is to make some changes in your project folder and upload them to GitHub to get a sense of how GitKraken works.</p>
 <ol class="arabic">
-<li><p>Go to the <a class="reference external" href="https://github.com/">GitHub</a> Web page. Log in into your account. In the top right corner click on your profile icon and navigate to your repositories.</p>
+<li><p>Head to your project folder and open the README file by right click and selecting <code class="docutils literal notranslate"><span class="pre">Edit</span> <span class="pre">with</span> <span class="pre">Notepad</span> <span class="pre">++</span></code></p>
 <blockquote>
-<div><img alt="_images/github-menu.png" class="screenshot" src="_images/github-menu.png" />
+<div><img alt="_images/myfirst-edit.png" class="screenshot" src="_images/myfirst-edit.png" />
 </div></blockquote>
 </li>
-<li><p>Then create a new repository by clicking on the <span class="green">New</span> button.</p>
+<li><p>Add some content to it and save it. This type of file uses a Markdown style, you can visit the <a class="reference external" href="https://google.github.io/styleguide/docguide/style.html">guide</a> to start learning Markdown.</p>
 <blockquote>
-<div><img alt="_images/github-new.png" class="screenshot" src="_images/github-new.png" />
+<div><img alt="_images/myfirst-readme.png" class="screenshot" src="_images/myfirst-readme.png" />
 </div></blockquote>
 </li>
-<li><p>Fill in the information. Add a name to the repository, in my case I chose the repository to be private, add a README file, and click on <span class="green">Create repository</span></p>
+<li><p>You should see some changes in GitKraken, click on <span class="blue">View change</span>.</p>
 <blockquote>
-<div><img alt="_images/github-createrepo.png" class="screenshot" src="_images/github-createrepo.png" />
+<div><img alt="_images/myfirst-change.png" class="screenshot" src="_images/myfirst-change.png" />
 </div></blockquote>
 </li>
-<li><p>Once created, go to your repositories again an click on your new repository, mine, named <code class="docutils literal notranslate"><span class="pre">documentation</span></code>.</p>
+<li><p>The README file should appear as a changed file, which makes sense, because we edited it. Click on <span class="green">Stage all changes</span>.</p>
 <blockquote>
-<div><img alt="_images/github-repository.png" class="screenshot" src="_images/github-repository.png" />
+<div><img alt="_images/myfirst-stage.png" class="screenshot" src="_images/myfirst-stage.png" />
 </div></blockquote>
 </li>
-<li><p>Then copy the URL of your repository by clicking on the <span class="green">Code</span> button to display the URL.</p>
+<li><p>Then, we need to write a message, title or some brief info under <span class="gray">Commit Message</span>. After we put the <span class="gray">Commit Message</span>, we hit the <span class="green">Commit changes to 1 file</span>.</p>
 <blockquote>
-<div><img alt="_images/github-URL.png" class="screenshot" src="_images/github-URL.png" />
+<div><img alt="_images/myfirst-readmeinfo.png" class="screenshot" src="_images/myfirst-readmeinfo.png" />
 </div></blockquote>
 </li>
-<li><p>For this next step you will need a Git Client. In my case I’m using GitKraken with a student license. You can check about Git Clients here <a class="reference internal" href="install-gitclient.html"><span class="doc">Installing a Git Client</span></a>. Open GitKraken, you will see something like this. Then, click on <span class="gray">Clone a repo</span></p>
+<li><p>On the top left we will see our branch named main with an up arrow to the right. This means that there is an upload pending. To upload the changes to GitHub click on the <span class="gray">Push</span> button.</p>
 <blockquote>
-<div><img alt="_images/github-kraken.png" class="screenshot" src="_images/github-kraken.png" />
+<div><img alt="_images/myfirst-upload.png" class="screenshot" src="_images/myfirst-upload.png" />
 </div></blockquote>
 </li>
-<li><p>Paste the URL from your repository in the URL box and hit <span class="green">Clone the repo!</span>.</p>
+<li><p>If everything went right, you should see a confirmation dialog on the bottom left corner.</p>
 <blockquote>
-<div><img alt="_images/github-clone.png" class="screenshot" src="_images/github-clone.png" />
+<div><img alt="_images/myfirst-confirmation.png" class="screenshot" src="_images/myfirst-confirmation.png" />
 </div></blockquote>
 </li>
-<li><p>Finally you should have a cloned repository in your computer. In your GitKraken you should see the initial commit in the tree section.</p>
+<li><p>There will be a new item on the GitKraken tree with the <span class="gray">Commit Message</span> that you chose earlier.</p>
 <blockquote>
-<div><img alt="_images/github-initcommit.png" class="screenshot" src="_images/github-initcommit.png" />
+<div><img alt="_images/myfirst-tree.png" class="screenshot" src="_images/myfirst-tree.png" />
 </div></blockquote>
 </li>
-<li><p>Open up the Windows explorer and go to your folder containing the project.</p>
+<li><p>Go to your GitHub repository to see the changes on the README file.</p>
 <blockquote>
-<div><img alt="_images/github-explorer.png" class="screenshot" src="_images/github-explorer.png" />
-<p>You should see something like this with the README file.</p>
-<img alt="_images/github-readme.png" class="screenshot" src="_images/github-readme.png" />
+<div><img alt="_images/myfirst-push.png" class="screenshot" src="_images/myfirst-push.png" />
 </div></blockquote>
 </li>
 </ol>
@@ -230,10 +229,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="my-first-project.html" class="btn btn-neutral float-right" title="My First Project" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="add-sphinx.html" class="btn btn-neutral float-right" title="Adding Sphinx to My Project" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="install-gitclient.html" class="btn btn-neutral float-left" title="Installing a Git Client" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="install-github.html" class="btn btn-neutral float-left" title="Installing a Github Repository" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

@@ -1,6 +1,6 @@
-*****************************
-Installing Github Repository
-*****************************
+*******************************
+Installing a Github Repository
+*******************************
 
 Technically, we are not going to install anything, but the title looks neat beside to the others installation guides. But, surely we are going to make an integration with `GitHub <https://github.com/>`_. For this process, I asume you have a `GitHub <https://github.com/>`_ account already.
 
@@ -44,10 +44,17 @@ Technically, we are not going to install anything, but the title looks neat besi
    	.. image:: images/github-clone.png
 	   :class: screenshot
 
-#. Finally you should have a cloned repository in your computer.
+#. Finally you should have a cloned repository in your computer. In your GitKraken you should see the initial commit in the tree section.
 
    	.. image:: images/github-initcommit.png
 	   :class: screenshot
 
+#. Open up the Windows explorer and go to your folder containing the project.
 
+   	.. image:: images/github-explorer.png
+	   :class: screenshot
 	   
+	You should see something like this with the README file.
+	
+   	.. image:: images/github-readme.png
+	   :class: screenshot	
