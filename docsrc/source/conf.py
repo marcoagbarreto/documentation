@@ -36,6 +36,10 @@ rst_prolog = """
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'sphinx_copybutton', # for adding “copy to clipboard” buttons to all text/code boxes
+	'sphinxcontrib.bibtex', # for bibliographic references
+	'sphinx.ext.mathjax', # for math formulas (LaTex)
+    'sphinx.ext.githubpages' # .nojekyll file under build/html/
 ]
 
 # Add any paths that contain templates here, relative to this directory.
