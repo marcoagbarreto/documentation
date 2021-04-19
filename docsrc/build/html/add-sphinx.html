@@ -1,0 +1,278 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Adding Sphinx to Project &mdash; Documentation 1 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/css/s4defs-roles.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="First Build" href="first-build.html" />
+    <link rel="prev" title="Pushing files to GitHub" href="pushing-to-github.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home" alt="Documentation Home"> Documentation
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Introduction</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="why-need-documentation.html">Why do you need documentation?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="documentation-examples.html">Documentation Examples</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Workspace setup</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="install-anaconda.html">Installing Anaconda on Windows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install-sphinx.html">Installing Sphinx</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install-gitclient.html">Installing a Git Client</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install-github.html">Installing a Github Repository</a></li>
+</ul>
+<p class="caption"><span class="caption-text">My First Project</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="pushing-to-github.html">Pushing files to GitHub</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Adding Sphinx to Project</a></li>
+<li class="toctree-l1"><a class="reference internal" href="first-build.html">First Build</a></li>
+<li class="toctree-l1"><a class="reference internal" href="change-theme.html">Changing Theme</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Structure</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="files-folders.html">Folder &amp; Files</a></li>
+<li class="toctree-l1"><a class="reference internal" href="toctree.html">TocTree</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Beyond This Guide</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="resources.html">Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="help-me.html">Help me!</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Documentation</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Adding Sphinx to Project</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/add-sphinx.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <blockquote>
+<div></div></blockquote>
+<div class="section" id="adding-sphinx-to-project">
+<h1>Adding Sphinx to Project<a class="headerlink" href="#adding-sphinx-to-project" title="Permalink to this headline">¶</a></h1>
+<p>The next thing we want to do is to build Sphinx into our project, so we can compile the project into a set of HTML files to visualize beautiful documentation.</p>
+<div class="admonition attention">
+<p class="admonition-title">Attention</p>
+<p>If you haven’t installed Anaconda and Sphinx you need to do it to follow this guide, check <a class="reference internal" href="install-anaconda.html"><span class="doc">Installing Anaconda on Windows</span></a> and <a class="reference internal" href="install-sphinx.html"><span class="doc">Installing Sphinx</span></a>.</p>
+</div>
+<ol class="arabic">
+<li><p>Open the CMD.exe terminal using Anaconda Navigator.</p>
+<blockquote>
+<div><img alt="_images/sphinx-navigator.png" class="screenshot" src="_images/sphinx-navigator.png" />
+</div></blockquote>
+</li>
+<li><p>Change directory to your project directory in the terminal using <code class="docutils literal notranslate"><span class="pre">cd</span></code>, the path may be different for you.</p>
+<blockquote>
+<div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="n">C</span><span class="p">:</span>\<span class="n">Users</span>\<span class="n">your_username</span>\<span class="n">Documents</span>\<span class="n">Projects</span>\<span class="n">your_project</span>
+</pre></div>
+</div>
+<img alt="_images/addsphinx-path.png" class="screenshot" src="_images/addsphinx-path.png" />
+</div></blockquote>
+</li>
+<li><p>Copy and paste the next line of code into the terminal to build Sphinx into your project folder.</p>
+<blockquote>
+<div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">sphinx</span><span class="o">-</span><span class="n">quickstart</span>
+</pre></div>
+</div>
+<img alt="_images/addsphinx-quickstart.png" class="screenshot" src="_images/addsphinx-quickstart.png" />
+</div></blockquote>
+</li>
+<li><p>The quick start utility should show. Follow the process by filling a project name, author, release number and language.</p>
+<blockquote>
+<div><img alt="_images/addsphinx-utility.png" class="screenshot" src="_images/addsphinx-utility.png" />
+</div></blockquote>
+</li>
+<li><p>After the Sphinx utility finishes, new items will appear in your project directory. Sphinx is now part of your life &lt;3.</p>
+<blockquote>
+<div><img alt="_images/addsphinx-explorer.png" class="screenshot" src="_images/addsphinx-explorer.png" />
+</div></blockquote>
+</li>
+</ol>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="first-build.html" class="btn btn-neutral float-right" title="First Build" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="pushing-to-github.html" class="btn btn-neutral float-left" title="Pushing files to GitHub" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2021, Marco A. Barreto
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
