@@ -10,6 +10,12 @@ Documentation is very important in the real world and Sphinx has become a popula
 
 	https://inkscape-manuals.readthedocs.io/en/latest
 
+#. **Water Quality Analysis**
+	
+	During the data science course, this documentation was created in order to display the code use to analyze the data taken from a lake, where pollution is measured using different elements and the relationship with the lake's health. This documentation also served as the project presentation.
+	
+	https://marcoagbarreto.github.io/water-quality-analysis
+
 #. **WEMOS**
 
 	WEMOS is a board brand that builds development boards around the ESP8266 chip-set. Their documentation details their boards specifications and pin-out diagrams are some of the examples provided. This page demonstrates their board's specifications, something to have in mind if you are working with PCBs and micro-controllers.
